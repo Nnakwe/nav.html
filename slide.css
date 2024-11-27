@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.slider {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+}
+
+.slides.active {
+  display: block;
+  transition: opacity 1s ease-in-out;
+}
