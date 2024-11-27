@@ -1,0 +1,129 @@
+body{
+	font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.header-content p {
+    margin: 0;
+    font-size: 14px;
+}
+.intro,.difference,.visit,.news{
+	text-align: center;
+	padding: 40px 20px 40px 20px;
+	background-color: #f0f0f0;
+
+}
+.intro {
+    background-color: #add8e6;
+}
+ .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+.step {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+gallery {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images div {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .steps {
+        flex-direction: column;
+    }
+}
+img{
+	width: 80%;
+	height: 10%;
+
+}
+
+
+
+	.navbar{
+		display: flex;
+		margin: 0px;
+		padding:15px 20px 15px 20px ;
+		width: 98%;
+		justify-content: right;
+		background-color: black;
+	}
+
+	nav ul{
+		margin: 70;
+		padding: 0;
+		list-style: none;
+
+	}
+
+
+	nav li{
+		display: inline-block;
+		margin: 5px;
+	}
+
+	nav li:hover{
+		background-color: darkred;
+		cursor: pointer;
+	}
