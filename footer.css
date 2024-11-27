@@ -1,0 +1,57 @@
+
+footer {
+    background-color: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 65%;
+    margin-bottom: 10px;
+/*    margin-left: 300px;*/
+    background-color: white;
+    align: center;
+}
+
+.email {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+address {
+    font-style: normal;
+    margin: 10px 0;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-icon {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #0f0f1e;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    .footer-content {
+        padding: 10px;
+    }
+
+    .email {
+        font-size: 1.2em;
+    }
+}
