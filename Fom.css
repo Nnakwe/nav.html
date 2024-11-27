@@ -1,0 +1,26 @@
+
+input[type=text],textarea,select{
+
+		width: 	50%;
+		border: 2px solid black;
+		padding: 15px;
+		resize: vertical;
+		border-radius:5px;
+}
+
+	label{
+		display:inline-block;
+		padding:15px 15px 15px 0px;
+}
+	body{
+	background-image:url('Image/Acid background.jfif');
+
+	}
+
+	input[type=submit]{
+		background-color:green;
+			padding:15px;
+		border:1px white solid;
+		border-radius: 5px;
+			cursor:pointer;
+}
