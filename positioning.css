@@ -1,0 +1,104 @@
+h2 {
+	font-family: serif;
+	font-size: 72px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.8em;
+}
+.con-1 {
+	border: 3px black solid;
+	width: 500px;
+	background-color: green;
+	margin-bottom: 20px ;
+	border-radius: 10px;
+	position: static;
+}
+
+.con-2 {
+	border: 3px black solid;
+	width: 500px;
+	background-color: green;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	position: relative;
+	left: 200px;
+}
+
+.con-3 {
+	border: 3px black solid;
+	width: 500px;
+	background-color: green;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	position: absolute;
+	right: 900px;
+}
+
+.con-4 {
+	border: 3px black solid;
+	width: 500px;
+	background-color: green;
+	margin-bottom: 20px;
+	border-radius: 10px;
+/*	height: 500px;*/
+}
+
+.con-5 {
+	border: 3px black solid;
+	width: 500px;
+	background-color: green;
+	margin-bottom: 20px;
+	border-radius: 10px;
+/*	position: absolute;*/
+/*	right: 50px;*/
+}
+
+
+#sticky {
+
+	border: 3px solid red;
+	background-color: black;
+	color: white;
+	position:sticky;
+	top: 150px;
+}
+
+
+#relative {
+	border: 3px solid black;
+	background-color: grey;
+	width: 550px;
+	height: 550PX;
+	position: relative;
+	left: 200px;
+}
+
+li {
+	display: inline ;
+	margin-right: 20px;
+	font-size: 30px;
+	}
+
+	a {
+		color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	}
+
+
+#navbar {
+	position: fixed;
+	top: 0;
+	background-color: green;
+	width: 200%;
+	text-align: center;
+
+}
+
+body{
+	background-color:yellow;
+
+}
